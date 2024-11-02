@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Продовольственная корзина</string>
+    <string name="exit">Выход</string>
+    <string name="check_text">Ваш чек будет здесь</string>
+    <string name="name_shop">Название Магазина</string>
+    <string name="start_shop">Начать покупки</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+</resources>

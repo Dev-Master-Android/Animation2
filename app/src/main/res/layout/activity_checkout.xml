@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_checkout"
+    android:background="@drawable/gradient_list"
+    tools:context=".ui.CheckoutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"/>
+
+    <TextView
+        android:id="@+id/receipt_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarCheckout"
+        android:padding="@dimen/_16dp"
+        android:textStyle="bold"
+        android:text="@string/check_text"
+        android:textSize="@dimen/_36sp"/>
+</RelativeLayout>

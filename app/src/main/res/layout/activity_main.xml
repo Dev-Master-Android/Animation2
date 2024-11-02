@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:background="@drawable/gradient_list"
+    tools:context=".ui.MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"/>
+    <ImageView
+        android:id="@+id/shop_image"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_150dp"
+        android:src="@drawable/shop_image"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_shop"
+        android:textSize="@dimen/_24sp"
+        android:textStyle="bold"
+        android:layout_above="@id/shop_image"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_16dp"/>
+
+    <Button
+        android:id="@+id/start_shopping_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_shop"
+        android:layout_below="@id/shop_image"
+        android:layout_centerHorizontal="true"
+       />
+</RelativeLayout>
